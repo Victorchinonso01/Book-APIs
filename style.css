@@ -110,8 +110,10 @@ form button {
 @media screen and (max-width: 500px) {
   .books {
     display: grid;
-    height: 50vh;
-    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 70vw;
     margin-bottom: 30px;
   }
 
@@ -120,47 +122,22 @@ form button {
   }
 
   .books img {
-    width: 35vw;
+    width: 70vw;
   }
 
   #main {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    text-align: center;
   }
 
   .books p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     line-height: 15px;
-    padding-left: 20px;
-  }
-}
-
-@media screen and (max-width: 307px) {
- .books {
-    height: 50vh;
-    width: 60vw;
-    margin-bottom: 30px;
-  }
-
-  input {
-    width: 50px;
-  }
-
-  .books img {
-    width: 60vw;
-  }
-
-  #main {
-    display: contents;
-    width: 100%;
-  }
-
-  .books p {
-    text-align: center;
-    line-height: 15px;
-    padding: 0px;
-  }
-
-  form button {
-    width: 50px;
+    padding-left: 90px;
   }
 }
